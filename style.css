@@ -1,0 +1,85 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana,sans-serif;
+}
+body{
+    background-image: url('./assets/pexels-ekaterina-bolovtsova-6077326.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container{
+    width: 100vw;
+    background-color: #2b2922;
+}
+/* navbar  */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    width: 80vw;
+    margin: auto;
+}
+.navbar div img{
+    color: blue;
+}
+.logo{
+    width: 95px;
+}
+.list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 1.0rem;
+    list-style-type: none;
+    width: 40vw;
+    color: #79776f;
+    margin-left: 15rem;
+}
+.list-item{
+    margin-left: 1.8rem;
+}
+
+li:first-child{
+    font-weight: bold;
+    color: #e7e6e4;
+}
+.button-small{
+    background: #2b2922;
+    padding: 7px 20px;
+    color: #645b2c;
+    font-weight: bold;
+    font-size: 15px;
+    box-shadow: none;
+    margin: 10px 60px;
+    border: 2px ridge #645b2c;
+    border-radius: 7px;
+}
+
+/* Hero Section */
+.hero{
+    display: flex;
+    text-align: center;
+    align-items: flex-start;
+    margin: 5rem;
+    padding-bottom: 35px;
+}
+.hero-heading{
+    text-align: center;
+    font-size:3.5rem;
+    font-weight: 900;
+    margin-left: 98px;
+    color: #f1f0ef;
+}
+.hero-description {
+    text-align: left;
+    font-size:21px;
+    font-weight: 500;
+    color: #81807a;
+    padding-top: 29px;
+    margin-left: 89px;
+}
